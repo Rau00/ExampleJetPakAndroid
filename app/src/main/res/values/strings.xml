@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TechnicalTestJetPack</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+
+    <string name="error_amount_input">El importe debe ser mayor a 1000</string>
+    <string name="amount_input_info">Tu importe introducido es: %s</string>
+</resources>

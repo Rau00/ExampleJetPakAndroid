@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="navigationComponentAttributes">
+        <attr name="hasNext" format="boolean" />
+        <attr name="hasBack" format="boolean" />
+    </declare-styleable>
+</resources>
