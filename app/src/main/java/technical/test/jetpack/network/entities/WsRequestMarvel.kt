@@ -8,8 +8,8 @@ import technical.test.jetpack.utils.encryption.EncryptionUtils
 class WsRequestMarvel
 constructor(val apiInterface: ApiInterface) {
 
-    private val apikeyPublic = "0e469aac93ed81b266b2d4cd94288006"
-    private val apikeyPrivate = "a7625563d4fcb27e849b584104e554e49fde8d87"
+    private val apikeyPublic = "990025945ddf8c5fbe3e1c4fa9c659da"
+    private val apikeyPrivate = "773c348e22e1e1bd10e9e65665fbeb9d85d61895"
 
     suspend fun requestSuperHeros(): Deferred<MarvelInfoModel> {
         val timeStamp = EncryptionUtils.generateTimeStamp()
